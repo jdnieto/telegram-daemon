@@ -1,0 +1,9 @@
+#
+# Default setting for telegram-cli sourced in /etc/init.d/telegram-cli.
+#
+# For the different options execute: 'telegram-cli --help'.
+#
+# Note: use the -R -C option if you want to write to log file. Otherwise it will just print garbage.
+#
+#
+OPTS="-W -U telegramd -G telegramd -s /etc/telegram/control.lua -k /etc/telegram/tg-server.pub -d -L /var/log/telegram-cli.log -vvvRC"  
